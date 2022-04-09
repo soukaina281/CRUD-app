@@ -116,7 +116,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
                     $name = $row["name"];
                     $address = $row["address"];
                     $city = $row["city"];
-                    $postal_code = $postal_code["postal_code"];
+                    $postal_code = $row["postal_code"];
                     $phone = $row["phone"];
                 } else{
                     // URL doesn't contain valid id. Redirect to error page
